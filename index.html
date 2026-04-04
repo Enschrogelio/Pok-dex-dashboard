@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pokedex Dashboard</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      background: #0f0f1a;
+      font-family: Segoe UI, Arial;
+      color: white;
+    }
+
+    .header {
+      text-align: center;
+      padding: 15px;
+      font-size: 20px;
+      font-weight: bold;
+      background: #1a1a2e;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 10px;
+    }
+
+    .iframe-container {
+      position: relative;
+      width: 100%;
+      padding-top: 120%;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+
+    .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    /* 📱 MOBILE */
+    @media (max-width: 768px) {
+      .iframe-container {
+        padding-top: 180%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="header">
+  📱 Pokédex Dashboard
+</div>
+
+<div class="container">
+  <div class="iframe-container">
+    <iframe 
+      src="https://app.powerbi.com/view?r=eyJrIjoiNjBiN2FkYTQtMzk1Zi00YTc0LTg5MGYtMGRlZWE2NDkzN2FlIiwidCI6IjQyMmNlZDMwLWZjMjAtNGUyYi04NzRkLWMyZjJiNmE2ZmM1NiIsImMiOjR9&chromeless=true"
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+</body>
+</html>
