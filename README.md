@@ -4,7 +4,7 @@ Prueba powerbi pokédex
 link
 https://enschrogelio.github.io/Pok-dex-dashboard/
 
-
+<img width="1771" height="901" alt="image" src="https://github.com/user-attachments/assets/d3bbb877-283e-4e86-a854-5feef8f53420" />
 <img width="1224" height="775" alt="image" src="https://github.com/user-attachments/assets/53624c70-9b7e-426b-84ed-da8dc7def3bf" />
 <img width="1202" height="749" alt="image" src="https://github.com/user-attachments/assets/7714325a-8a5f-4ad9-b861-8fc8bca999d8" />
 <img width="1244" height="778" alt="image" src="https://github.com/user-attachments/assets/1614e9ca-3c74-4674-a7d1-ea53131547f4" />
